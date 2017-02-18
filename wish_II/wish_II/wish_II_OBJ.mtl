@@ -1,0 +1,286 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 05.05.2008 19:07:40
+
+newmtl body_mt
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.7153 0.7404 0.7404
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\body.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\body.jpg
+
+newmtl kuro_mt
+	Ns 26.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1294 0.1294 0.1294
+	Ks 0.8300 0.8300 0.8300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl metal_mt
+	Ns 16.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 3.2329 3.2329 3.2329
+	Ke 0.0000 0.0000 0.0000
+
+newmtl mizo_mt
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl sidelight_mt
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1922 0.5608 0.3843
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\sidelight.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\sidelight.jpg
+
+newmtl BackLump
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9569 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\taillight2.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\taillight2.jpg
+
+newmtl inside_mt
+	Ns 26.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6471 0.6471 0.6471
+	Ks 0.4600 0.4600 0.4600
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__614
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3961 0.3961 0.3961
+	Ks 0.2970 0.2970 0.2970
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wire_183183183
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7176 0.7176 0.7176
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_214229166
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8392 0.8980 0.6510
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__563
+	Ns 79.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8980 0.8980 0.8980
+	Ks 3.6000 3.6000 3.6000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__484
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\taillight2.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\taillight2.jpg
+
+newmtl plate_mt
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.3592 0.3592 0.3592
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\plate.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\plate.jpg
+
+newmtl Material__486
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\fog_light.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\fog_light.jpg
+
+newmtl Material__487
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\Grill(1).jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\Grill(1).jpg
+
+newmtl headlight2_mt
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1922 0.3882 0.6784
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\headlight2.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\headlight2.jpg
+
+newmtl soko_mt
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1765 0.1765 0.1765
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__485
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 1.5750 1.5750 1.5750
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\back_light_op.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\back_light_op.jpg
+
+newmtl tire_mt
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1059 0.1059 0.1059
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wheel_mt
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\wheel.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\wheel.jpg
+
+newmtl headlight_mt
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\headlight.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\headlight.jpg
+
+newmtl taillight_mt
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5569 0.7255 0.1922
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\3dsmax_wish_II\map\taillight.jpg
+	map_Kd Z:\Car-model\temp\3dsmax_wish_II\map\taillight.jpg

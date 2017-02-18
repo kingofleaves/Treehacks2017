@@ -1,0 +1,216 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 06.05.2008 12:48:12
+
+newmtl Material__47
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.6000 0.6000 0.6000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\11max_windom_new\map\body_color.jpg
+	map_Kd Z:\Car-model\temp\11max_windom_new\map\body_color.jpg
+	map_refl Z:\Car-model\temp\11max_windom_new\map\ref_white.gif
+
+newmtl Material__48
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__49
+	Ns 65.0000
+	Ni 1.5000
+	d 0.7500
+	Tr 0.7500
+	Tf 0.7500 0.7500 0.7500 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2941 0.3098 0.3490
+	Ks 1.3590 1.3590 1.3590
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__50
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1843 0.1843 0.1843
+	Ks 1.3500 1.3500 1.3500
+	Ke 0.0000 0.0000 0.0000
+	map_refl C:\3dsmax7\maps\Reflection\Lakerem.jpg
+
+newmtl Material__51
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.1412 0.8510
+	Ks 1.5750 1.5750 1.5750
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\11max_windom_new\map\light2.jpg
+	map_Kd Z:\Car-model\temp\11max_windom_new\map\light2.jpg
+	map_refl Z:\Car-model\temp\11max_windom_new\map\ref6.bmp
+
+newmtl Material__53
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 1.5750 1.5750 1.5750
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\11max_windom_new\map\backlight.jpg
+	map_Kd Z:\Car-model\temp\11max_windom_new\map\backlight.jpg
+	map_refl Z:\Car-model\temp\11max_windom_new\map\ref6.bmp
+
+newmtl Material__58
+	Ns 49.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 1.2870 1.2870 1.2870
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\11max_windom_new\map\sidelight.jpg
+	map_Kd Z:\Car-model\temp\11max_windom_new\map\sidelight.jpg
+	map_refl Z:\Car-model\temp\11max_windom_new\map\ref6.bmp
+
+newmtl 09___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__54
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 1.5750 1.5750 1.5750
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\11max_windom_new\map\fox.jpg
+	map_Kd Z:\Car-model\temp\11max_windom_new\map\fox.jpg
+	map_refl Z:\Car-model\temp\11max_windom_new\map\ref6.bmp
+
+newmtl Material__56
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2157 0.2157 0.2157
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__59
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\11max_windom_new\map\tire_pattern.jpg
+	map_Kd Z:\Car-model\temp\11max_windom_new\map\tire_pattern.jpg
+	map_bump Z:\Car-model\temp\11max_windom_new\map\tire_pattern.jpg
+	bump Z:\Car-model\temp\11max_windom_new\map\tire_pattern.jpg
+
+newmtl Material__72
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\11max_windom_new\map\win.jpg
+	map_Kd Z:\Car-model\temp\11max_windom_new\map\win.jpg
+
+newmtl Material__55
+	Ns 69.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0510 0.0510 0.0510
+	Ks 1.2060 1.2060 1.2060
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__52
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__57
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Car-model\temp\11max_windom_new\map\max.jpg
+	map_Kd Z:\Car-model\temp\11max_windom_new\map\max.jpg
+
+newmtl wire_006134006
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0235 0.5255 0.0235
+	Ks 0.3500 0.3500 0.3500
