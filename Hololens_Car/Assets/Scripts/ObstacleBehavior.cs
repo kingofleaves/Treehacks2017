@@ -7,7 +7,7 @@ public class ObstacleBehavior : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		timer = Time.time;
-		gameObject.transform.Translate(0, 0, -1);
+		gameObject.transform.Translate(0, -0.5f, 0);
 		gameObject.transform.Rotate (0, 90, 0);
 		gameObject.tag = "Obstacle";
 	}

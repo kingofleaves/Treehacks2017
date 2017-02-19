@@ -23,6 +23,7 @@ public class CarTraverse : MonoBehaviour {
 		StartCoroutine (checkDirection ());
 		if (obstacleFrequency == 0)
 			obstacleFrequency = Mathf.Sin (Time.time);
+		turnSpeed = turnSpeed * 5;
 	}
 	
 	// Update is called once per frame
@@ -67,7 +68,7 @@ public class CarTraverse : MonoBehaviour {
 				state = STATE_FORWARD;
 				break;
 			}
-			yield return new WaitForSeconds (0.5f);
+			yield return new WaitForSeconds (1.5f);
 		}
 	}
 

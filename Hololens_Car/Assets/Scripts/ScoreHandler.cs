@@ -9,10 +9,14 @@ public class ScoreHandler : MonoBehaviour {
 	void Start () {
 		isGameOver = false;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		this.gameObject.transform.position = Camera.main.transform.position;
+		this.gameObject.transform.position = Camera.current.transform.position;
+		Vector3 distance = (this.gameObject.transform.position - GameObject.FindWithTag ("Fairy").transform.position);
+		if (distance.magnitude > 2) {
+			loseHealth ();
+		}
 	}
 	void OnCollisionEnter (Collision col) {
 		Debug.Log ("hit");
