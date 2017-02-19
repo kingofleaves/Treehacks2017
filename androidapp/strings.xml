@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">YOU CHAT MESSENGER</string>
+
+    <string name="gender_prompt">Choose a gender</string>
+    <string-array name="genders">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="sexualorientation_prompt">Choose a sexual orientation</string>
+    <string-array name="sexualorientations">
+        <item>Straight</item>
+        <item>Gay</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
