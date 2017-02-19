@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: cde6b5aaf0523e143bfc7b9e46ea1ff1
+timeCreated: 1487510439
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back mirro
+    100002: backViper
+    100004: Card back
+    100006: Card front
+    100008: Console
+    100010: Console dr
+    100012: Core03
+    100014: Core04
+    100016: Core05
+    100018: Core06
+    100020: Driver
+    100022: Fin_h01
+    100024: Fin_h02
+    100026: Fin_v01
+    100028: Fin_v02
+    100030: Fin_v03
+    100032: Fog_fin
+    100034: Front_line
+    100036: Grill02
+    100038: Grill_defa
+    100040: Handle_bac
+    100042: //RootNode
+    100044: Ist_back
+    100046: L_door
+    100048: L_door02
+    100050: L_Handle
+    100052: L_Handle02
+    100054: L_mirror
+    100056: light
+    100058: Logo_base0
+    100060: Muffler_de
+    100062: Oil
+    100064: R_door
+    100066: R_door02
+    100068: R_Handle
+    100070: R_Handle02
+    100072: R_mirror
+    100074: RadioWirel
+    100076: Rain Spray
+    100078: Seat
+    100080: Siidelight
+    100082: Skirt_fro0
+    100084: Skirt_fron
+    100086: Skirt_rear
+    100088: spoiler_re
+    100090: Spray_back
+    100092: Tire Grou0
+    100094: Tire Grou1
+    100096: Tire Grou2
+    100098: Tire Group
+    100100: top-in
+    100102: toyota
+    100104: Tube03
+    100106: Tube04
+    100108: Tube05
+    100110: Tube06
+    100112: wiper_fro0
+    100114: wiper_fron
+    400000: back mirro
+    400002: backViper
+    400004: Card back
+    400006: Card front
+    400008: Console
+    400010: Console dr
+    400012: Core03
+    400014: Core04
+    400016: Core05
+    400018: Core06
+    400020: Driver
+    400022: Fin_h01
+    400024: Fin_h02
+    400026: Fin_v01
+    400028: Fin_v02
+    400030: Fin_v03
+    400032: Fog_fin
+    400034: Front_line
+    400036: Grill02
+    400038: Grill_defa
+    400040: Handle_bac
+    400042: //RootNode
+    400044: Ist_back
+    400046: L_door
+    400048: L_door02
+    400050: L_Handle
+    400052: L_Handle02
+    400054: L_mirror
+    400056: light
+    400058: Logo_base0
+    400060: Muffler_de
+    400062: Oil
+    400064: R_door
+    400066: R_door02
+    400068: R_Handle
+    400070: R_Handle02
+    400072: R_mirror
+    400074: RadioWirel
+    400076: Rain Spray
+    400078: Seat
+    400080: Siidelight
+    400082: Skirt_fro0
+    400084: Skirt_fron
+    400086: Skirt_rear
+    400088: spoiler_re
+    400090: Spray_back
+    400092: Tire Grou0
+    400094: Tire Grou1
+    400096: Tire Grou2
+    400098: Tire Group
+    400100: top-in
+    400102: toyota
+    400104: Tube03
+    400106: Tube04
+    400108: Tube05
+    400110: Tube06
+    400112: wiper_fro0
+    400114: wiper_fron
+    2300000: back mirro
+    2300002: backViper
+    2300004: Card back
+    2300006: Card front
+    2300008: Console
+    2300010: Console dr
+    2300012: Core03
+    2300014: Core04
+    2300016: Core05
+    2300018: Core06
+    2300020: Driver
+    2300022: Fin_h01
+    2300024: Fin_h02
+    2300026: Fin_v01
+    2300028: Fin_v02
+    2300030: Fin_v03
+    2300032: Fog_fin
+    2300034: Front_line
+    2300036: Grill02
+    2300038: Grill_defa
+    2300040: Handle_bac
+    2300042: //RootNode
+    2300044: Ist_back
+    2300046: L_door
+    2300048: L_door02
+    2300050: L_Handle
+    2300052: L_Handle02
+    2300054: L_mirror
+    2300056: light
+    2300058: Logo_base0
+    2300060: Muffler_de
+    2300062: Oil
+    2300064: R_door
+    2300066: R_door02
+    2300068: R_Handle
+    2300070: R_Handle02
+    2300072: R_mirror
+    2300074: RadioWirel
+    2300076: Rain Spray
+    2300078: Seat
+    2300080: Siidelight
+    2300082: Skirt_fro0
+    2300084: Skirt_fron
+    2300086: Skirt_rear
+    2300088: spoiler_re
+    2300090: Spray_back
+    2300092: top-in
+    2300094: toyota
+    2300096: Tube03
+    2300098: Tube04
+    2300100: Tube05
+    2300102: Tube06
+    2300104: wiper_fro0
+    2300106: wiper_fron
+    3300000: back mirro
+    3300002: backViper
+    3300004: Card back
+    3300006: Card front
+    3300008: Console
+    3300010: Console dr
+    3300012: Core03
+    3300014: Core04
+    3300016: Core05
+    3300018: Core06
+    3300020: Driver
+    3300022: Fin_h01
+    3300024: Fin_h02
+    3300026: Fin_v01
+    3300028: Fin_v02
+    3300030: Fin_v03
+    3300032: Fog_fin
+    3300034: Front_line
+    3300036: Grill02
+    3300038: Grill_defa
+    3300040: Handle_bac
+    3300042: //RootNode
+    3300044: Ist_back
+    3300046: L_door
+    3300048: L_door02
+    3300050: L_Handle
+    3300052: L_Handle02
+    3300054: L_mirror
+    3300056: light
+    3300058: Logo_base0
+    3300060: Muffler_de
+    3300062: Oil
+    3300064: R_door
+    3300066: R_door02
+    3300068: R_Handle
+    3300070: R_Handle02
+    3300072: R_mirror
+    3300074: RadioWirel
+    3300076: Rain Spray
+    3300078: Seat
+    3300080: Siidelight
+    3300082: Skirt_fro0
+    3300084: Skirt_fron
+    3300086: Skirt_rear
+    3300088: spoiler_re
+    3300090: Spray_back
+    3300092: top-in
+    3300094: toyota
+    3300096: Tube03
+    3300098: Tube04
+    3300100: Tube05
+    3300102: Tube06
+    3300104: wiper_fro0
+    3300106: wiper_fron
+    4300000: top
+    4300002: back mirro
+    4300004: backViper
+    4300006: Card front
+    4300008: Console
+    4300010: Console dr
+    4300012: Driver
+    4300014: Fin_h01
+    4300016: L_door
+    4300018: L_Handle
+    4300020: L_mirror
+    4300022: L_door02
+    4300024: R_Handle
+    4300026: RadioWirel
+    4300028: Rain Spray
+    4300030: Seat
+    4300032: Tube03
+    4300034: Core03
+    4300036: toyota
+    4300038: wiper_fron
+    4300040: wiper_fro0
+    4300042: top-in
+    4300044: light
+    4300046: Grill02
+    4300048: Grill_defa
+    4300050: Logo_base0
+    4300052: Skirt_rear
+    4300054: Skirt_fron
+    4300056: Oil
+    4300058: Fin_v01
+    4300060: Front_line
+    4300062: Spray_back
+    4300064: Siidelight
+    4300066: Skirt_fro0
+    4300068: Handle_bac
+    4300070: Fog_fin
+    4300072: Ist_back
+    4300074: Muffler_de
+    4300076: spoiler_re
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

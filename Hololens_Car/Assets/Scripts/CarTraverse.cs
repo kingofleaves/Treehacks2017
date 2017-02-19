@@ -20,12 +20,15 @@ public class CarTraverse : MonoBehaviour {
 	void Start () {
 		state = STATE_TURN;
 		StartCoroutine(dropObjects (obstacleFrequency));
+		StartCoroutine (checkDirection ());
+		if (obstacleFrequency == 0)
+			obstacleFrequency = Mathf.Sin (Time.time);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		bobUpAndDown ();
-		Instantiate (glowParticles, this.transform.position, Quaternion.identity);
+		//controlSpeed ();
 		switch (state) {
 		case (STATE_FORWARD): 
 			moveForward (forwardSpeed);
@@ -42,11 +45,19 @@ public class CarTraverse : MonoBehaviour {
 		gameObject.transform.Rotate (4 * Mathf.Cos (Time.time - 2f) * amplitude, 0, 0);
 	}
 
+
+
 	IEnumerator dropObjects (float frequency) {
 		for(;;) {
-			Instantiate (prefabCar, (new Vector3(this.transform.position.x + Random.value-0.5f, -0.5f,this.transform.position.z + Random.value-0.5f)), Quaternion.Euler(new Vector3(-90, 0, 0))); 
+			Instantiate (prefabCar, (new Vector3(this.transform.position.x + Random.value/2, -1f,this.transform.position.z + Random.value/2)), gameObject.transform.rotation	); 
+			yield return new WaitForSeconds (1f / frequency);
+		}
+	}
+
+	IEnumerator checkDirection() {
+		for(;;) {
 			switch(state) {
-			case STATE_FORWARD:
+			case STATE_FORWARD: 
 				state = STATE_TURN;
 				break;
 			case STATE_TURN:
@@ -56,7 +67,7 @@ public class CarTraverse : MonoBehaviour {
 				state = STATE_FORWARD;
 				break;
 			}
-			yield return new WaitForSeconds (1f / frequency);
+			yield return new WaitForSeconds (0.5f);
 		}
 	}
 
@@ -65,7 +76,14 @@ public class CarTraverse : MonoBehaviour {
 	}
 
 	void moveTurn(float speed) {
-		gameObject.transform.Rotate (0, speed * Time.deltaTime * 180, 0);
+		float deltaAngle = speed * Time.deltaTime * 180 * (Mathf.Sin (Time.time) + Mathf.Sin (Time.time * 0.2931f));
+		deltaAngle = Time.deltaTime * speed * 180;
+		gameObject.transform.Rotate (0, deltaAngle, 0);
 		gameObject.transform.Translate (0, 0, speed * Time.deltaTime);
 	}
+	void controlSpeed() {
+		forwardSpeed += Time.deltaTime / 50;
+		turnSpeed += Time.deltaTime / 50;
+	}
+
 }

@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GlowBehavior : MonoBehaviour {
-	private float timer;
+	public GameObject glowParticles;
 	// Use this for initialization
 	void Start () {
-		timer = Time.time;
+		StartCoroutine (createGlow (2));
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Time.time - timer > 1) {
-			Destroy (this.gameObject);
+
+	}
+
+	IEnumerator createGlow (float frequency) {
+		for (;;) {
+			Instantiate (glowParticles, this.transform.position, Quaternion.identity); 
+			yield return new WaitForSeconds (1f / frequency);
 		}
 	}
 }
