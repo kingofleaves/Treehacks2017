@@ -29,7 +29,7 @@ public class CarTraverse : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		bobUpAndDown ();
-		//controlSpeed ();
+		controlSpeed ();
 		switch (state) {
 		case (STATE_FORWARD): 
 			moveForward (forwardSpeed);
@@ -78,7 +78,7 @@ public class CarTraverse : MonoBehaviour {
 
 	void moveTurn(float speed) {
 		float deltaAngle = speed * Time.deltaTime * 180 * (Mathf.Sin (Time.time) + Mathf.Sin (Time.time * 0.2931f));
-		deltaAngle = Time.deltaTime * speed * 180;
+		//deltaAngle = Time.deltaTime * speed * 180;
 		gameObject.transform.Rotate (0, deltaAngle, 0);
 		gameObject.transform.Translate (0, 0, speed * Time.deltaTime);
 	}

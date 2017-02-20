@@ -5,21 +5,25 @@ using UnityEngine;
 public class ScoreHandler : MonoBehaviour {
 	public GameObject gameOverUI;
 	private bool isGameOver;
+	public int maxHealth;
+	private int remainingHealth;
 	// Use this for initialization
 	void Start () {
 		isGameOver = false;
+		gameOverUI.SetActive (false);
+		remainingHealth = maxHealth;
 	}
 
 	// Update is called once per frame
 	void Update () {
-		this.gameObject.transform.position = Camera.current.transform.position;
-		Vector3 distance = (this.gameObject.transform.position - GameObject.FindWithTag ("Fairy").transform.position);
-		if (distance.magnitude > 2) {
+		//gameObject.transform.position = Camera.current.transform.position;
+		Vector3 distance = (gameObject.transform.position - GameObject.FindWithTag ("Fairy").transform.position);
+		if (distance.magnitude > 5) {
 			loseHealth ();
 		}
 	}
 	void OnCollisionEnter (Collision col) {
-		Debug.Log ("hit");
+		//Debug.Log ("hit");
 		if (col.gameObject.tag == "Obstacle") {
 			loseHealth ();
 		}
@@ -27,8 +31,11 @@ public class ScoreHandler : MonoBehaviour {
 
 	void loseHealth() {
 		if (!isGameOver) {
-			gameOverUI.SetActive (true);
-			isGameOver = true;
+			remainingHealth--;
+			if (remainingHealth == 0) {
+				gameOverUI.SetActive (true);
+				isGameOver = true;
+			}
 		}
 	}
 }
